@@ -6,9 +6,13 @@
 ```
 $ cp config.json.example config.json
 ```
-3) Start spark server
+3) Build docker image
+```
+$ ./build_image.sh
+```
+4) Start spark server
 ```
 $ ./start.sh
 ```
-4) Copy the local url that is printed to the command line into the browser
+5) Copy the local url that is printed to the command line into the browser
 
